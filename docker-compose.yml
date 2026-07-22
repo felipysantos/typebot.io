@@ -13,7 +13,7 @@ x-typebot-common: &typebot-common
   environment:
     REDIS_URL: redis://typebot-redis:6379
     S3_ENDPOINT: typebot-minio
-    S3_PUBLIC_CUSTOM_DOMAIN: http://localhost:9000/typebot
+    S3_PUBLIC_CUSTOM_DOMAIN: https://storage.atendmais.cloud/typebot
 
 services:
   typebot-db:
